@@ -79,7 +79,7 @@ export default class FocusKeywords {
 		}
 		
 		// Set the first keyword (if we have one) to be active
-		this.keywords.length && this.setActiveKeyword(0);
+		// this.keywords.length && this.setActiveKeyword(0);
 		
 		// Fire the keywords change callback
 		this.onKeywordsChange();
